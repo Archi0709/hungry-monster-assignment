@@ -3,7 +3,7 @@ const displayMeals = (mealData) => {
     const mealDiv = document.getElementById('mealDiv');
    
 
-//allMeal = data.meals
+
     mealData.forEach(allMeal => {
         const mealDivAppend = document.createElement('div');
         mealDivAppend.className = 'main-part';
