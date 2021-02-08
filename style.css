@@ -1,0 +1,31 @@
+#mealDiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.meal-details{
+    border: 1px solid salmon;
+    border-radius: 20px;
+    padding: 20px;
+    width: 70%;
+    
+}
+
+.main{
+    border: 1px solid sandybrown;
+    padding: 70px;
+    width: 75%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.img{
+    margin-bottom: 30px;
+    height: 250px;
+    width: 75%;
+    border-radius: 10px;
+}
+
+
